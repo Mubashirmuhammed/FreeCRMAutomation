@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 2, Errors: 0, Skipped: 1, Time elapsed: 125.22 s <<< FAILURE! - in TestSuite
+validateCreateNewContact(com.crm.qa.testcases.ContactsPageTest)  Time elapsed: 0.305 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+Element <a href="https://classic.freecrm.com/system/index.cfm?action=contact&sub=load&edit=1"> could not be scrolled into view
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'MUBASHIR', ip: '192.168.5.28', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230321111920, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 17560, moz:profile: C:\Users\mubas\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 487c97c1-5db4-44c0-af9c-576c95209e7f
+	at com.crm.qa.testcases.ContactsPageTest.validateCreateNewContact(ContactsPageTest.java:74)
+
+setUp(com.crm.qa.testcases.FreeCrmTest)  Time elapsed: 4.396 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: C:\Users\naveenkhunteta\Downloads\chromedriver
+	at com.crm.qa.testcases.FreeCrmTest.setUp(FreeCrmTest.java:24)
+
